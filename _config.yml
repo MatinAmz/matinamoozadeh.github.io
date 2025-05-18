@@ -1,7 +1,33 @@
-source:      .
-destination: ./_site
-includes:    ./_includes
+title: "Matin Amoozadeh"
+email: "mamoozad@cougarnet.uh.edu"
+description: >-
+  PhD student in Computer Science | Researcher in AI and Education | Developer
+
+baseurl: "https://github.com/MatinAmz" 
+url: "https://www.matinamoozadeh.com"
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation menu
+nav:
+  - title: "About"
+    url: "/about"
+  - title: "Publications"
+    url: "/publications"
+  - title: "Projects"
+    url: "/projects"
+  - title: "CV"
+    url: "/cv"
 
 collections:
   projects:
     output: true
+
+social_links:
+  email: "mamoozad@cougarnet.uh.edu"
+  github: "https://github.com/MatinAmz"
+  linkedin: "https://www.linkedin.com/in/matin-amoozadeh-87b8231b3/"
+  google_scholar: "https://scholar.google.com/citations?user=306Bfd4AAAAJ&hl=en"
